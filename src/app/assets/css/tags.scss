@@ -1,0 +1,29 @@
+.tag__show {
+  margin-top: 30px !important;
+
+  .post__tag {
+    margin-bottom: 20px;
+
+    .post__subtitle {
+      h1 {
+        position: relative;
+
+        a {
+          text-decoration: none;
+          font-weight: 400;
+          transition: .3s;
+        }
+
+        .private__label {
+          position: absolute;
+          background-color: #6c757d;
+          text-transform: capitalize;
+          padding: 7px;
+          font-size: 12px;
+          top: 7px;
+          right: -18px;
+        }
+      }
+    }
+  }
+}

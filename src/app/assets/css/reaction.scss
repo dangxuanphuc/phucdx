@@ -1,0 +1,43 @@
+.post__react {
+  display: flex;
+  align-items: center;
+
+  .dot {
+    margin-left: 15px;
+  }
+
+  .action__btn {
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+    transition: all .2s ease-in-out;
+
+    &.action__view {
+      margin-left: 15px;
+    }
+
+    span {
+      margin-bottom: 2px;
+    }
+
+    &__icon {
+      margin-left: 8px;
+      font-size: 18px;
+      transition: all .2s ease-in-out;
+    }
+  }
+
+  a.action__btn {
+    text-decoration: none;
+  }
+}
+
+@keyframes heart {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.2);
+  }
+}

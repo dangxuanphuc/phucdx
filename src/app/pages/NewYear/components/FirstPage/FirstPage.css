@@ -1,0 +1,54 @@
+.main-view {
+  min-height: 100vh;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-year-logo {
+  height: 250px;
+  animation: logo 2.5s;
+}
+
+.cloud-top-container {
+  position: absolute;
+  top: 0;
+  background-image: url('../../../../assets/images/cloud.png');
+  background-position: top;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+@keyframes logo {
+  from {
+    opacity: 0;
+    height: 500px;
+  }
+
+  to {
+    opacity: 1;
+    height: 250px;
+  }
+}
+
+@keyframes logo-responsive {
+  from {
+    opacity: 0;
+    height: 250px;
+  }
+
+  to {
+    opacity: 1;
+    height: 190px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  /* For everything smaller than 320px */
+  .new-year-logo {
+    height: 190px;
+    animation: logo-responsive 2.5s;
+  }
+}
