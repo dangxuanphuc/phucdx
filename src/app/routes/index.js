@@ -4,14 +4,21 @@ import {
   Switch
 } from "react-router-dom";
 import NewYear from '../pages/NewYear';
+import Main from '../pages/Main';
 import NotFound from '../pages/NotFound'
 
 const routePath = {
+  main: '/',
   newYear: '/happy-new-year/',
   notFound: ''
 }
 
 const route = [
+  {
+    path: routePath.main,
+    exact: true,
+    component: () => <Main/>
+  },
   {
     path: routePath.newYear,
     exact: true,

@@ -29,7 +29,7 @@ export default class SecondPage extends React.Component {
           <img
             alt='blossom-top-left'
             className='blossom-top-left'
-            src={require('../../../../assets/images/blossom_top_left.png')}
+            src={require('../../../../assets/images/new_year/blossom_top_left.png')}
           />
           <div className='row wish-quote-image-container'>
             <div className='col-lg-4 wish-quote-image-wrapper'>
@@ -47,13 +47,13 @@ export default class SecondPage extends React.Component {
             alt='blossom-bottom-right'
             className='blossom-bottom-right'
             style={{ maxHeight: 150 }}
-            src={require('../../../../assets/images/blossom_bottom_right.png')}
+            src={require('../../../../assets/images/new_year/blossom_bottom_right.png')}
           />
           <div className='from-author'>
             <img
               alt='animal-of-year'
               className='animal-of-year'
-              src={require('../../../../assets/images/animal_of_year_2.png')}
+              src={require('../../../../assets/images/new_year/animal_of_year_2.png')}
             />
             <span>{AppString.get('from_author')}</span>
           </div>
@@ -86,14 +86,14 @@ export default class SecondPage extends React.Component {
             <img
               alt='lid-gift-box__lid'
               className={`lid-gift-box__lid ${rotating}`}
-              src={require('../../../../assets/images/lid_gift_box.png')}
+              src={require('../../../../assets/images/new_year/lid_gift_box.png')}
             />
           </div>
           <div className='main-gift-box'>
             <img
               alt='main-gift-box__main'
               className={`main-gift-box__main ${rotatingMainBox}`}
-              src={require('../../../../assets/images/main_gift_box.png')}
+              src={require('../../../../assets/images/new_year/main_gift_box.png')}
             />
           </div>
         </div>
