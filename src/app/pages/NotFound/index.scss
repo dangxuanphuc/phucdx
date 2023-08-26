@@ -5,6 +5,15 @@
   h1 {
     font-size: 100px;
     margin-bottom: 20px;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .error-details {
+    font-size: 17px;
   }
 
   .back-to-home {
@@ -14,8 +23,15 @@
     text-transform: uppercase;
     border-radius: 5px;
     transition: .5s;
+    color: var(--titleNav-color);
+    border: 1px solid var(--titleNav-color)!important;
 
-    .fa {
+    &:hover {
+    background-color: var(--titleNav-color);
+    color: var(--white-color);
+    }
+
+    span {
       font-size: 20px;
     }
   }

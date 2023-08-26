@@ -2,7 +2,7 @@
   scroll-behavior: smooth;
   display: flex;
   flex-direction: column;
-  background-image: url("../../assets/images/pure_bgr.png");
+  background-image: url("../../assets/images/new_year/pure_bgr.png");
   background-attachment: fixed;
   background-size: 100% 100%;
 }
@@ -11,13 +11,13 @@
   display: flex;
   width: 100%;
   min-height: 100vh;
-  background-image: url('../../assets/images/pagodas.png');
+  background-image: url('../../assets/images/new_year/pagodas.png');
   background-position: bottom;
   background-repeat: no-repeat;
 }
 
 .tap-to-open-main-view {
-  background-image: url("../../assets/images/app_background.jpg");
+  background-image: url("../../assets/images/new_year/app_background.jpg");
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
