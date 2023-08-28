@@ -5,11 +5,13 @@ import {
 } from "react-router-dom";
 import NewYear from '../pages/NewYear';
 import Main from '../pages/Main';
+import Iwd from '../pages/Iwd';
 import NotFound from '../pages/NotFound'
 
 const routePath = {
   main: '/',
   newYear: '/happy-new-year/',
+  iwd: '/happy-international-womens-day/',
   notFound: ''
 }
 
@@ -17,17 +19,22 @@ const route = [
   {
     path: routePath.main,
     exact: true,
-    component: () => <Main/>
+    component: () => <Main />
   },
   {
     path: routePath.newYear,
     exact: true,
-    component: () => <NewYear/>
+    component: () => <NewYear />
+  },
+  {
+    path: routePath.iwd,
+    exact: true,
+    component: () => <Iwd />
   },
   {
     path: routePath.notFound,
     exact: false,
-    component: () => <NotFound/>
+    component: () => <NotFound />
   }
 ];
 
