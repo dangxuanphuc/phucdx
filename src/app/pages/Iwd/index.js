@@ -15,7 +15,7 @@ const Iwd = () => {
               <br />
               <p className="logo-desc animated bounceInUp">"Where there is a Woman, there is Magic"</p>
               <br /><hr />
-              <h3 className='footer-title'>Made with <a href="https://dangxuanphuc.io.vn/" target="_blank">Phuc Dang Xuan</a> 2023</h3>
+              <h3 className='footer-title'>Made with <a href="https://dangxuanphuc.io.vn/" target="_blank" rel="noopener noreferrer">Phuc Dang Xuan</a> 2023</h3>
             </div>
           </div>
         </div>
