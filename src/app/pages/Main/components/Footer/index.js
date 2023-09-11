@@ -37,7 +37,7 @@ const Footer = () => {
           <i className='fab fa-instagram social__icon'></i>
         </a>
       </div>
-      <p className='footer__copyright'>&copy; 2023 Copyright by Phuc Dang Xuan</p>
+      <p className='footer__copyright'>Copyright &copy; 2023 by Phuc Dang Xuan. All Rights Reserved.</p>
     </footer>
   );
 };
