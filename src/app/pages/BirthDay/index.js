@@ -5,7 +5,7 @@ const BirthDay = () => {
   return (
     <iframe
       src="https://tanjoubi-omedetou.netlify.app/"
-      title="Lan Chan's Birthday"
+      title="Hoang Hien's Birthday"
       className="birthday-frame"
       frameBorder="0"
     ></iframe>

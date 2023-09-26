@@ -29,7 +29,7 @@ const PageList = () => {
             </td>
           </tr>
           <tr>
-            <td>Happy Birthday Lan chan</td>
+            <td>Happy Birthday Hiền</td>
             <td>
               <a href='/happy-birthday' target='_blank'>
                 https://dangxuanphuc.io.vn/happy-birthday
