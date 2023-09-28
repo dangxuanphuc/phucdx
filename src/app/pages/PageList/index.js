@@ -29,7 +29,7 @@ const PageList = () => {
             </td>
           </tr>
           <tr>
-            <td>Happy Birthday Hiền</td>
+            <td>Happy Birthday</td>
             <td>
               <a href='/happy-birthday' target='_blank'>
                 https://dangxuanphuc.io.vn/happy-birthday
@@ -41,6 +41,14 @@ const PageList = () => {
             <td>
               <a href='/happy-international-womens-day' target='_blank'>
                 https://dangxuanphuc.io.vn/happy-international-womens-day
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Happy Vietnam Womens Day</td>
+            <td>
+              <a href='/happy-vietnam-womens-day' target='_blank'>
+                https://dangxuanphuc.io.vn/happy-vietnam-womens-day
               </a>
             </td>
           </tr>

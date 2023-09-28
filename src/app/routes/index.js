@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import NewYear from '../pages/NewYear';
 import Main from '../pages/Main';
 import Iwd from '../pages/Iwd';
+import Vwd from '../pages/Vwd';
 import BirthDay from '../pages/BirthDay';
 import PageList from '../pages/PageList';
 import NotFound from '../pages/NotFound';
@@ -11,6 +12,7 @@ const routePath = {
   main: '/',
   newYear: '/happy-new-year/',
   iwd: '/happy-international-womens-day/',
+  vwd: '/happy-vietnam-womens-day/',
   birthday: '/happy-birthday/',
   pageList: '/page-list/',
   notFound: '',
@@ -31,6 +33,11 @@ const route = [
     path: routePath.iwd,
     exact: true,
     component: () => <Iwd />,
+  },
+  {
+    path: routePath.vwd,
+    exact: true,
+    component: () => <Vwd />,
   },
   {
     path: routePath.birthday,
