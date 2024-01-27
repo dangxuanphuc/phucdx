@@ -24,7 +24,6 @@ const wishes = [
   "Năm mới Tết đến. Rước hên vào nhà. Quà cáp bao la. Mọi nhà no đủ. Vàng bạc đầy hũ. Gia chủ phát tài. Già trẻ gái trai. Sum vầy hạnh phúc. Cầu tài chúc phúc. Lộc đến quanh năm. An khang thịnh vượng!",
   "Cung chúc tân niên, Sức khỏe vô biên, Thành công liên miên, Hạnh phúc triền miên, Túi luôn đầy tiền, Sung sướng như tiên. Chúc mừng năm mới!",
   "Đong cho đầy hạnh phúc. Gói cho trọn lộc tài. Giữ cho mãi an khang. Thắt cho chặt phú quý. Cùng chúc nhau như ý. Hứng cho tròn an khang. Chúc năm mới bình an. Cả nhà đều sung túc.",
-  "Cung chúc tân xuân phước vĩnh cửu – Chúc trong gia quyến được an khương – Tân niên lai đáo đa phú quý – Xuân đến an khương vạn thọ tường.",
   "Kính chúc mọi người một năm mới tràn đầy niềm vui và hạnh phúc: Vui trong sức khoẻ, trẻ trong tâm hồn, khôn trong lý tưởng và trưởng thành mọi lĩnh vực.",
   "Mỗi năm là một mùa hoa nở, mỗi năm là một mùa bội thu. Cuộc sống như cây đang lớn. Chúc bạn một năm mới Vạn sự như ý.",
   "Chúc mọi người vui vẻ như Chim Sẻ, khỏe mạnh như Đại Bàng, giàu sang như chim Phụng, làm lụng như chim Sâu, sống lâu như Đà Điểu.",

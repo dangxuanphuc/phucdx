@@ -9,7 +9,6 @@ export function getRandomLogoForWishCard() {
     require('../assets/images/new_year/kid.png'),
     require('../assets/images/new_year/family.png'),
     require('../assets/images/new_year/family_2.png'),
-    require('../assets/images/new_year/family_3.png'),
     require('../assets/images/new_year/lunar_celebrate_1.png'),
   ];
   return logos[randomNumber(0, logos.length)];
