@@ -37,7 +37,7 @@ const Footer = () => {
                 <li className='nav-item'>
                   <a
                     className='nav-link'
-                    href='https://www.instagram.com/phucdx_/'
+                    href='https://www.facebook.com/wataridori.natsumi/'
                     title='Facebook'
                     target='_blank'
                     rel='noopener noreferrer'
@@ -49,7 +49,7 @@ const Footer = () => {
                 <li className='nav-item'>
                   <a
                     className='nav-link'
-                    href='https://www.facebook.com/wataridori.natsumi/'
+                    href='https://www.instagram.com/phucdx_/'
                     title='Instagram'
                     target='_blank'
                     rel='noopener noreferrer'
