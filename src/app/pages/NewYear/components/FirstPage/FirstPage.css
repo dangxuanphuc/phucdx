@@ -7,7 +7,7 @@
 }
 
 .new-year-logo {
-  height: 250px;
+  height: 700px;
   animation: logo 2.5s;
 }
 
@@ -24,31 +24,30 @@
 @keyframes logo {
   from {
     opacity: 0;
-    height: 500px;
+    height: 900px;
   }
 
   to {
     opacity: 1;
-    height: 250px;
+    height: 700px;
   }
 }
 
 @keyframes logo-responsive {
   from {
     opacity: 0;
-    height: 250px;
+    height: 500px;
   }
 
   to {
     opacity: 1;
-    height: 190px;
+    height: 350px;
   }
 }
 
 @media only screen and (max-width: 450px) {
-  /* For everything smaller than 320px */
   .new-year-logo {
-    height: 190px;
+    height: 350px;
     animation: logo-responsive 2.5s;
   }
 }

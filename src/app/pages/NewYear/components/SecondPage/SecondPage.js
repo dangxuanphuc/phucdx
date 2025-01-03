@@ -53,7 +53,7 @@ export default class SecondPage extends React.Component {
             <img
               alt='animal-of-year'
               className='animal-of-year'
-              src={require('../../../../assets/images/new_year/animal_of_year_2.png')}
+              src={require('../../../../assets/images/new_year/animal/ty_2.png')}
             />
             <span>{AppString.get('from_author')}</span>
           </div>

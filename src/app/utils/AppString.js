@@ -1,13 +1,13 @@
 const strings = {
   happy_new_year: "Chúc mừng năm mới",
-  click_to_play: "Nhấn vào chú rồng để xem điều bất ngờ nhé",
+  click_to_play: "Nhấn vào chú rắn để xem điều bất ngờ nhé",
   from_author: "From Phuc Dang Xuan With Love",
   label_gift_box: "Bấm để mở hộp quà nhé"
 }
 
 const wishes = [
   "Chúc bạn năm mới một rổ tiếng cười, niềm vui và lời chúc ấm áp của tôi từ ngàn dặm xa xôi gửi tặng cho bạn tốt của tôi. Chúc bạn năm mới hạnh phúc, gặp nhiều may mắn và thành công!",
-  "Chúc mừng năm mới – vạn sự như ý – sinh lý dồi dào – vàng vào cả ký – tiền ra ti tí – thật là hết ý.",
+  "Chúc mừng năm mới - vạn sự như ý - sinh lý dồi dào - vàng vào cả ký - tiền ra ti tí - thật là hết ý.",
   "Chiềng làng chiềng xã, thượng hạ đông tây, xa gần đó đây, vểnh tai nghe chúc: Tân niên sung túc, lắm phúc nhiều duyên, trong túi nhiều tiền, tâm hồn vui sướng.",
   "Năm mới, chúc bạn sắc đẹp tuyệt vời, tiền vô phơi phới, người yêu không cần tìm cũng tự tới.",
   "Năm mới vui vẻ không quạu nha.",
