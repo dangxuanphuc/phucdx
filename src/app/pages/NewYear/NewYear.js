@@ -22,7 +22,7 @@ export default class NewYear extends React.Component {
   }
 
   componentDidMount() {
-    document.title = 'Happy New Year 2024';
+    document.title = 'Happy New Year 2025';
 
     window.addEventListener('resize', () =>
       this.setState({
@@ -79,7 +79,7 @@ export default class NewYear extends React.Component {
           alt='click-to-play'
           onClick={this._onClickToPlay}
           style={{ maxHeight, maxWidth, marginRight: 10, cursor: 'pointer' }}
-          src={require('../../assets/images/new_year/animal_of_year.png')}
+          src={require('../../assets/images/new_year/animal/ty.png')}
         />
         <span className='click-to-play'>{AppString.get('click_to_play')}</span>
       </div>
